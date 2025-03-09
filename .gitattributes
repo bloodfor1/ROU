@@ -1,0 +1,52 @@
+## for clone ##
+
+*.png binary -delta
+*.jpeg binary -delta
+*.jpg binary -delta
+*.gif binary -delta
+*.gz binary -delta
+*.bz2 binary -delta
+*.tgz binary -delta
+*.zip binary -delta
+*.rar binary -delta
+*.jar binary -delta
+*.pdf binary -delta
+*.keystore  binary -delta
+*.exe binary -delta
+*.dll binary -delta
+*.a binary -delta
+*.so binary -delta
+*.pdb binary -delta
+*.mp3 binary -delta
+*.mp4 binary -delta
+*.ogg binary -delta
+*.wav binary -delta
+*.mov binary -delta
+*.tga binary -delta
+*.TGA binary -delta
+*.unitypackage binary -delta
+*.fbx binary -delta
+*.FBX binary -delta
+*.mly binary -delta
+*.bank binary -delta
+*.tif binary -delta
+*.exr binary -delta
+*.psd binary -delta
+*.TTF binary -delta
+*.physicsMaterial2D binary -delta
+*.physicsMaterial binary -delta
+*.ab binary -delta
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.mip filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.mdb filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
