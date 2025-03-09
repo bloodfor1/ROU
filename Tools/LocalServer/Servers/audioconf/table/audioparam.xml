@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Param>
+  <ParamValue max_memory_keep_count="500000" min_memory_keep_count="100000" pull_from_db_count_once="10000" 
+   max_do_tasks_count_per_frame="200" is_delete_db_data_sync="0" records_per_delete="1000" 
+  />
+  <ItemCacheLru max_item_cache_count="10000" recycle_once_count="50" item_cache_valid_second="3600"/>
+</Param>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<ProxyServer name="proxy" zone="1" id="1" debug="1" line="1">
+	<AppPlat app="qq" plat="android" /> <!-- app(qq, wechat), plat(ios, android) -->
+
+	<Connect>
+		<peer ip="127.0.0.1" port="10104" handler="ctrllink" sendBufSize="1024000" recvBufSize="1024000"/>
+		<!-- <peer ip="127.0.0.1" port="10133" handler="mslink" sendBufSize="2048000" recvBufSize="2048000"/>
+		<peer ip="127.0.0.1" port="10151" handler="tradelink" sendBufSize="2048000" recvBufSize="2048000"/> -->
+	</Connect>
+
+	<Listen>
+		<peer ip="127.0.0.1" port="10141" handler="anylink" sendBufSize="2048000" recvBufSize="2048000"/>
+		<!-- <peer ip="127.0.0.1" port="10142" handler="gslink" sendBufSize="2048000" recvBufSize="2048000"/> -->
+		<!-- other singleton server  -->
+	</Listen>
+
+	<LogType  file="1" console="1" level="debug" pattern="[%p] %d %c - %m%n" date_pattern="%Y-%m-%d.log" path_name="log/proxyserver_"/>
+
+	<RootPath dir="gsconf"/>
+	<RpcTimeout enabled="1"/>
+	<TLogConfigFile path="serveronly/tlog_config.xml"/>
+
+	<KeepAlive  enabled="0"/>
+</ProxyServer>

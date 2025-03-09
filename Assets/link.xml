@@ -1,0 +1,13 @@
+<linker>
+    <assembly fullname="MoonClient" preserve="all" />
+    <assembly fullname="MoonCommonLib" preserve="all" />
+    <assembly fullname="MoonSerializable" preserve="all" />
+    <assembly fullname="SDKLib" preserve="all" />
+    <assembly fullname="DOTween" preserve="all"/>
+    <assembly fullname="DemiLib" preserve="all"/>
+    <assembly fullname="DOTweenPro" preserve="all"/>
+    <assembly fullname="Google.Protobuf" preserve="all"/>
+    <assembly fullname="CString" preserve="all"/>
+    <assembly fullname="Debugger" preserve="all"/>
+    <assembly fullname="enum2int" preserve="all"/>
+</linker>

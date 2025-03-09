@@ -1,0 +1,20 @@
+﻿{
+  "CHECK_APP_VERSION": "バージョンをチェック中…",
+  "CHECK_FILE_COMPLETE": "ファイルの整合性をチェック中…",
+  "START_UPDATE": "更新を開始します…",
+  "UPDATE_ALREADY_IS_NEWEST": "既に最新のバージョンです、ダウンロードは不要です。",
+  "UPDATE_GET_NEWER_VERSION_WILL_JUMP": "新しいバージョンを確認しました、ダウンロード先に遷移します。",
+  "UPDATE_FINISH_START_GAME": "更新完了、ゲームのロードを開始します…",
+  "UPDATE_FNINISH_CHECK_COMPLETE": "更新終了、ファイルの整合性をチェックします…",
+  "UPDATE_ERROR_IF_RETRY": "{0}、アップデートエラー、再試行しますか？",
+  "CHECK_PLATFORM_CONFIG_ERROR": "プロファイルの不正を確認しました。",
+  "DOWNLOADING_NEWEST_CONFIG": "最新のリソース設定をダウンロードしています…",
+  "CONFIG_AREA_ERROR_PLEASE_CHECK": "ゲームのエリアバージョンが一致していません、設定を確認してください。",
+  "CONFIG_MAIN_VERSION_ERROR_PLEASE_CHECK": "ゲームのメインバージョンが一致していません、設定を確認してください。",
+  "STORAGE_NOT_ENOUGH": "メモリ容量が不足しています！！デバイスの空き容量を増やしてから再試行してください。",
+  "LOADING": "読み込み中…",
+  "TEXT_CONFIRM": "確認",
+  "UNZIP_AUTHING": "圧縮ファイルを検証中…",
+  "UNZIP_DECOMPRESSING": "ファイルを展開しています……",
+  "UNZIP_ERROR_REASON": "解凍に失敗しました：{0}"
+}

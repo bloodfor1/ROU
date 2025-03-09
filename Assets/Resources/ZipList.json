@@ -1,0 +1,23 @@
+{
+    "fileNum" : 15,
+    "files" : {
+        "FmodBank" : [
+            "Action.bank",
+            "AMB.bank",
+            "BGM.bank",
+            "CutScene.bank",
+            "MasterBank.bank",
+            "MasterBank.strings.bank",
+            "Monster.bank",
+            "UI.bank",
+            "VO.bank"
+        ],
+        "BytesBlock" : [
+            "BYTES_BLOCK/BYTES_BLOCK.blockinfo",
+            "BYTES_BLOCK/BYTES_BLOCK1.block",
+            "BYTES_BLOCK/BYTES_BLOCK2.block",
+            "BYTES_BLOCK/BYTES_BLOCK3.block",
+            "BYTES_BLOCK/BYTES_BLOCK4.block"
+        ]
+    }
+}

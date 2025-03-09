@@ -1,0 +1,23 @@
+---@class MoonCommonLib.TagPoint : System.Enum
+---@field public value__ number
+---@field public StartGame number
+---@field public PlayCG number
+---@field public CheckVersion number
+---@field public CheckUpdate number
+---@field public UpdateResources number
+---@field public UpdatePackage number
+---@field public Maintenance number
+---@field public PreLoading number
+---@field public EnterLogin number
+---@field public SelectPlatform number
+---@field public AuthError number
+---@field public Connect number
+---@field public WaitQueue number
+---@field public BeginSelectRole number
+---@field public SelectRole number
+---@field public BeginCreateRole number
+---@field public EndCreateRole number
+---@field public EnterGame number
+
+---@type MoonCommonLib.TagPoint
+MoonCommonLib.TagPoint = { }

@@ -1,0 +1,61 @@
+--this file is gen by script
+--you can edit this file in custom part
+
+
+--lua requires
+require "UI/BaseUITemplate"
+--lua requires end
+
+--lua model
+module("UITemplate", package.seeall)
+
+--lua model end
+
+--lua fields
+local super = UITemplate.BaseUITemplate
+--lua fields end
+
+--lua class define
+---@class MultiSkillEmptyLineTemplateParameter
+---@field PanelRef MoonClient.MLuaUIPanel
+---@field EmptyLine MoonClient.MLuaUICom
+
+---@class MultiSkillEmptyLineTemplate : BaseUITemplate
+---@field Parameter MultiSkillEmptyLineTemplateParameter
+
+MultiSkillEmptyLineTemplate = class("MultiSkillEmptyLineTemplate", super)
+--lua class define end
+
+--lua functions
+function MultiSkillEmptyLineTemplate:Init()
+	
+	super.Init(self)
+	
+end --func end
+--next--
+function MultiSkillEmptyLineTemplate:OnDestroy()
+	
+	
+end --func end
+--next--
+function MultiSkillEmptyLineTemplate:OnDeActive()
+	
+	
+end --func end
+--next--
+function MultiSkillEmptyLineTemplate:OnSetData(data)
+	
+	
+end --func end
+--next--
+function MultiSkillEmptyLineTemplate:BindEvents()
+	
+	
+end --func end
+--next--
+--lua functions end
+
+--lua custom scripts
+
+--lua custom scripts end
+return MultiSkillEmptyLineTemplate

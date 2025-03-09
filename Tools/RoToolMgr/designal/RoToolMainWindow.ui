@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string extracomment="Ro工具管理器">Ro工具管理器</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>sys_env.json路径：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>40</y>
+      <width>75</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>691</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <property name="bottomMargin">
+      <number>4</number>
+     </property>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>常用功能快捷入口：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openCsvFloderBtn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>210</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键打开CSV文件夹</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openBatToolFloderBtn">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>210</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键打开BatTool文件夹</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openRoPcPackage">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>210</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启动Ro PC包</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openClientCodeFolder">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>210</y>
+      <width>221</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>打开ClientCode工程文件目录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openCsvToolBtn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>250</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启动CSV打表工具</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openProtoGenTool">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>250</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>打开Proto生成工具</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buildPcDllBtn">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>250</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>打Dll批处理工具</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exportOfflineDataBtn">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>250</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导出离线表工具</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openLocalServerFolder">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>250</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本地服相关工具</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openNavTool">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>290</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>寻路导航工具</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>320</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GIT常用组合操作入口：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkoutNewBranchBtn">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>370</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键创建并切入新分支</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearUntrackFileBtn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>370</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键清空untracked文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkoutBranchBtn">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>370</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键切入指定分支</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearAndCheckoutBtn">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>410</y>
+      <width>251</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键Reset、Clean并切入新的分支同时拉取</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushToRemoteBtn">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>410</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键push(推送到远端)</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>360</y>
+      <width>171</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="canOperaGitReposLayout"/>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>340</y>
+      <width>158</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>勾选要操作的库：</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

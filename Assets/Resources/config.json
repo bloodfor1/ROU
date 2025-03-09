@@ -1,0 +1,35 @@
+
+{
+    "bundleId" : "com.joyyou.ro",
+    "channel"  : "ro_inner",
+    "area"     : 0,
+    "language" : 0,
+    "apiDomain" : "https://ro-client-api.huanle.com",
+    "mode"      : {
+        "packageMode" : 3,
+        "zipMode"     : 2,
+        "abMode"      : 1
+    },
+    "version"   : {
+        "ChannelVersion" : 0,
+        "ProgramVersion" : 2,
+        "InnerVersion"   : 0,
+        "SourceVersion"  : 1
+    },
+    "programUpdate" : {
+        "type" : 0,
+        "serverUrl" : "{0}/check-update?game_code=ro&channel_code={1}&current_version={2}&system={3}&device_id={4}&pkg_env=formal",
+        "preServerUrl" : "{0}/check-update?game_code=ro&channel_code={1}&current_version={2}&system={3}&device_id={4}&pkg_env=test",
+        "channelId" : "ro_inner"
+    },
+    "hotUpdate"     : {
+        "type" : 0,
+        "serverUrl" : "{0}/check-update?game_code=ro&channel_code={1}&current_version={2}&system={3}&device_id={4}&pkg_env=formal",
+        "preServerUrl" : "{0}/check-update?game_code=ro&channel_code={1}&current_version={2}&system={3}&device_id={4}&pkg_env=test",
+        "channelId" : "ro_inner"
+    },
+    "sdkList"       : "MInternalFixer,DefaultAnncounce,PCDevice",
+    "androidNativeSdkList" : "",
+    "fileServer"           : "http://ro-gm-config-ready.123u.com",
+    "sign"                 : "d9b297c15d1be0cd4da9bb81d13c8ec69939b014"
+}

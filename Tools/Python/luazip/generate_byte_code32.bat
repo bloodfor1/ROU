@@ -1,0 +1,1 @@
+python generate_byte_code.py -m 32

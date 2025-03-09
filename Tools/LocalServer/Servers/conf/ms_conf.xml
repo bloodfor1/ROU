@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<MasterServer name="master" zone="1" id="1" debug="1">
+    <AppPlat app="qq" plat="android" code="ro_inner" />
+    <!-- app(qq, wechat), plat(ios, android) code(ro_xx) -->
+    <DB ip="10.0.150.100" user="game" password="game" port="3306" database="world"/>
+
+    <Connect>
+        <peer ip="127.0.0.1" port="10103" handler="ctrllink" sendBufSize="1024000" recvBufSize="1024000"/>
+        <peer ip="10.0.128.201" port="25004" handler="loginlink" sendBufSize="1024000" recvBufSize="1024000"/>
+        <peer ip="10.0.128.201" port="29000" handler="idiplink" sendBufSize="1024000" recvBufSize="1024000"/>
+        <peer ip="10.0.128.201" port="35000" handler="fmlink" sendBufSize="1024000" recvBufSize="1024000"/>
+    </Connect>
+
+    <Listen>
+        <peer ip="127.0.0.1" port="10131" handler="gatelink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10132" handler="gslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10133" handler="tradelink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10134" handler="audiolink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10135" handler="battlelink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10137" handler="paylink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10138" handler="ranklink" sendBufSize="2048000" recvBufSize="2048000"/>
+    </Listen>
+
+    <!-- rolltype (day, hour) # common lib log config-->
+    <LogType  file="1" console="0" rolltype="day"/>
+    <LogLevel debug="0" info="0" warn="1" error="1" fatal="1"/>
+    <!-- log4cxx config-->
+    <Log4cxxType  file="1" console="1" level="debug"/>
+    <ModuleDetailLog>
+        <peer name="role" 				level="debug" enabled="0"/>
+        <peer name="sceneliftcycle" 	level="debug" enabled="0"/>
+        <peer name="theme" 				level="info" enabled="1"/>
+        <peer name="delegate" 			level="info" enabled="1"/>
+        <peer name="worldpve" 			level="info" enabled="1"/>
+    </ModuleDetailLog>
+
+    <FM enabled="1"/>
+    <RootPath dir="gsconf"/>
+    <RpcTimeout enabled="1"/>
+    <TLogConfigFile path="serveronly/tlog_config.xml"/>
+
+    <!--注册账号达到该数量会重置开服时间为当天（腾讯需求）。-1=>uint(-1)意味着该条件无法达到，内网不需要重置 -->
+    <ServerOpenTime register_num="-1"/>
+
+    <!-- paydebug(沙盒或现网环境) 0：现网 1：沙盒 没有该字段默认为沙盒环境-->
+    <!-- paydelaytest(延迟测试) 0:正常 1：延迟，谨慎使用，正式环境不能打开延迟，仅用于测试用途-->
+    <PayUrl link="http://msdktest.qq.com" slavelink=""  count="10" paydebug="1" paydelaytest="0"/>
+    <!-- MsdkUrl idc正式:msdk.tencent-cloud.net  idc测试:msdktest.tencent-cloud.net  外网正式:msdk.qq.com  外网测试:msdktest.qq.com -->
+    <MsdkUrl link="http://msdktest.qq.com"/>
+    <!-- 信鸽地址 不用加http -->
+    <XingeUrl link="openapi.xg.qq.com"/>
+    <JoyyouCDKExchangeUrl link="https://ro-client-api.huanle.com" />
+    <!-- 韩国 https://ro-client-kr-api.huanle.com -->
+    <KeepAlive  enabled="1"/>
+    <!--openantitimer防沉迷上报，不是腾讯服不要打开-->
+	<OpenTssSDk enabled="0" authtoken="37A3C82E" gameid="2183" openantitimer="0" useold="1"/>
+    <TlogToTx enabled = "0"/>
+    <TlogToLocal enabled = "1"/>
+</MasterServer>

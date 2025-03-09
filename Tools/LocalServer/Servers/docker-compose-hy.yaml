@@ -1,0 +1,48 @@
+version: '3'
+services:
+  ro:
+    image: 192.168.6.76:5000/centos/ro_dev
+    container_name: ro_dev
+    ports:
+      - "22:22"
+      - "10110:10110"
+      - "8089:8089"
+    command: ["/usr/sbin/init"]
+    privileged: true
+    volumes:
+    - ..\..\..\..\clientproj\Tools\LocalServer\ro:/data/ro
+    - ..\..\..\..\config\Assets\Resources\SceneGrid:/data/ro/gsconf/SceneGrid
+    #- ..\..\..\..\config\Table\ServerBytes:/data/ro/gsconf/rogameslib_table
+    - ..\..\..\..\config\overseas_config\Korea\Table\ServerBytes:/data/ro/gsconf/rogameslib_table
+    - ..\..\..\..\config\Assets\Resources\SkillData:/data/ro/gsconf/SkillData
+    - ..\..\..\..\config\Assets\Resources\SceneDatas:/data/ro/gsconf/scene_spawner
+    - ..\..\..\..\config\LuaGame:/data/ro/gsconf/lua_script
+    - ..\..\..\..\config\LuaServer:/data/ro/gsconf/lua_server
+    - ..\..\..\..\config\Assets\Resources\AI:/data/ro/gsconf/AI
+    - ..\..\..\..\config\Assets\Resources\ConGraphDatas:/data/ro/gsconf/ConGraphDatas
+    - ..\..\..\..\config\Assets\Editor\EditorResources\Server\Curve:/data/ro/gsconf/curve
+    - ..\..\..\..\config\Assets\Resources\ScenesUnityDatas:/data/ro/gsconf/scene_unity_datas
+    - ..\..\..\..\config\Assets\Resources\MlyDatas:/data/ro/gsconf/map_layer_datas
+    - ..\..\..\..\config\Assets\Resources\ClyDatas:/data/ro/gsconf/distance_check_datas
+    - ..\..\..\..\config\Assets\Resources\AirSpaceDatas:/data/ro/gsconf/air_space_datas
+    - ..\..\..\..\config\Assets\Resources\TerrainDatas:/data/ro/gsconf/terrian_datas
+    - ..\..\..\..\config\Assets\Resources\NavDatas:/data/ro/gsconf/nav_datas
+    - ..\..\..\..\config\Assets\Resources\PathDatas:/data/ro/gsconf/path_datas
+    - .\gsconf\script:/data/ro/gsconf/script
+    - .\gsconf\serveronly:/data/ro/gsconf/serveronly
+    - .\conf:/data/ro/conf
+    - .\audioconf:/data/ro/audioconf
+    #- .\start:/data/ro/start
+    #- .\stop:/data/ro/stop
+    #- "./entrypoint.sh:/entrypoint.sh"
+    #working_dir: /data/ro
+    environment:
+        TZ: 'Asia/Shanghai'
+        LANG: "en_US.UTF-8"
+    #build: .
+    #entrypoint: /entrypoint.sh
+    ulimits:
+        nproc: 65535
+        core:
+         soft: -1
+         hard: -1

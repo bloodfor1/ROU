@@ -1,0 +1,63 @@
+---@class MoonCommonLib.MLayer
+---@field public ID_DEFAULT number
+---@field public ID_TRANSPARENT_FX number
+---@field public ID_CUTSCENE_FX number
+---@field public ID_IGNORE_RAYCAST number
+---@field public ID_WATER number
+---@field public ID_UI number
+---@field public ID_REAL_WALL number
+---@field public ID_TERRAIN number
+---@field public ID_MONSTER number
+---@field public ID_NPC number
+---@field public ID_ROLE number
+---@field public ID_PLAYER number
+---@field public ID_DUMMY number
+---@field public ID_SCENE_FX number
+---@field public ID_SCENE_SMALL_OBJECT number
+---@field public ID_AIR_WALL number
+---@field public ID_HEAD_PORTRAIT number
+---@field public ID_SCENE_EVENT number
+---@field public ID_NPC_DEPTH number
+---@field public ID_CUTSCENE number
+---@field public ID_PHOTO number
+---@field public ID_FLYING number
+---@field public ID_ELF number
+---@field public ID_RTFACTORY number
+---@field public ID_POST_PROCESS number
+---@field public ID_ROAM_SCENE number
+---@field public ID_INVISIBLE number
+---@field public ID_CutSceneUI number
+---@field public MASK_DEFAULT number
+---@field public MASK_TRANSPARENT_FX number
+---@field public MASK_CUTSCENE_FX number
+---@field public MASK_IGNORE_RAYCAST number
+---@field public MASK_WATER number
+---@field public MASK_UI number
+---@field public MASK_REAL_WALL number
+---@field public MASK_TERRAIN number
+---@field public MASK_MONSTER number
+---@field public MASK_NPC number
+---@field public MASK_ROLE number
+---@field public MASK_PLAYER number
+---@field public MASK_DUMMY number
+---@field public MASK_SCENE_FX number
+---@field public MASK_SCENE_SMALL_OBJECT number
+---@field public MASK_AIR_WALL number
+---@field public MASK_HEAD_PORTRAIT number
+---@field public MASK_SCENE_EVENT number
+---@field public MASK_NPC_DEPTH number
+---@field public MASK_PHOTO number
+---@field public MASK_FLYING number
+---@field public MASK_ELF number
+---@field public MASK_RTFACTOR number
+---@field public MASK_POST_PROCESS number
+---@field public MASK_ROAM_SCENE number
+---@field public MASK_INVISIBLE number
+---@field public MASK_CUTSCENEUI number
+---@field public MASK_CUTSCENE number
+
+---@type MoonCommonLib.MLayer
+MoonCommonLib.MLayer = { }
+---@return MoonCommonLib.MLayer
+function MoonCommonLib.MLayer.New() end
+return MoonCommonLib.MLayer

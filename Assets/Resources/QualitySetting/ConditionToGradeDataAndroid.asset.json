@@ -1,0 +1,1263 @@
+{
+    "scoreToGrade": [
+        {
+            "grade": 3,
+            "min": -1,
+            "max": 50
+        },
+        {
+            "grade": 3,
+            "min": 51,
+            "max": 150
+        },
+        {
+            "grade": 2,
+            "min": 151,
+            "max": 270
+        },
+        {
+            "grade": 1,
+            "min": 271,
+            "max": 400
+        },
+        {
+            "grade": 0,
+            "min": 400,
+            "max": -1
+        }
+    ],
+    "deviceModelToGrade": [
+        {
+            "deviceModel": "ANE-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "ANE-TL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BAC-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BAC-TL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BLN-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BLN-AL20",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BLN-AL40",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BLN-TL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BND-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BND-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BND-TL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BTV-DL09",
+            "grade": 3
+        },
+        {
+            "deviceModel": "BTV-W09",
+            "grade": 3
+        },
+        {
+            "deviceModel": "DUK-AL20",
+            "grade": 3
+        },
+        {
+            "deviceModel": "EDI-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "EVA-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "EVA-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "EVA-TL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "FIG-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "FIG-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "FIG-TL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "FRD-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "FRD-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "GIONEE M7",
+            "grade": 3
+        },
+        {
+            "deviceModel": "GIONEE S10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "GIONEE S10L",
+            "grade": 3
+        },
+        {
+            "deviceModel": "HUAWEI COL-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "HUAWEI NXT-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "HUAWEI NXT-TL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "HWI-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "HWI-TL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "KNT-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "KNT-AL20",
+            "grade": 3
+        },
+        {
+            "deviceModel": "KNT-UL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "LLD-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "LLD-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "LON-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "M2 E",
+            "grade": 3
+        },
+        {
+            "deviceModel": "MHA-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "NEM-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "nubia NX563J",
+            "grade": 3
+        },
+        {
+            "deviceModel": "OnePlus ONEPLUS A3010",
+            "grade": 3
+        },
+        {
+            "deviceModel": "PIC-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "PRA-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "PRA-AL00X",
+            "grade": 3
+        },
+        {
+            "deviceModel": "PRA-TL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "PRO 7-S",
+            "grade": 3
+        },
+        {
+            "deviceModel": "RNE-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "STF-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "STF-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "VIE-AL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "VKY-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "VTR-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "VTR-TL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "WAS-AL00",
+            "grade": 3
+        },
+        {
+            "deviceModel": "WAS-TL10",
+            "grade": 3
+        },
+        {
+            "deviceModel": "1707-A01",
+            "grade": 2
+        },
+        {
+            "deviceModel": "1801-A01",
+            "grade": 2
+        },
+        {
+            "deviceModel": "ALP-AL00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "BKL-AL00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "BKL-AL20",
+            "grade": 2
+        },
+        {
+            "deviceModel": "BLA-AL00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "CLT-AL01",
+            "grade": 2
+        },
+        {
+            "deviceModel": "EML-AL00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "GN8003",
+            "grade": 2
+        },
+        {
+            "deviceModel": "LE X620",
+            "grade": 2
+        },
+        {
+            "deviceModel": "LND-AL30",
+            "grade": 2
+        },
+        {
+            "deviceModel": "LND-AL40",
+            "grade": 2
+        },
+        {
+            "deviceModel": "M1 E",
+            "grade": 2
+        },
+        {
+            "deviceModel": "M3 NOTE",
+            "grade": 2
+        },
+        {
+            "deviceModel": "Meizu Meizu S6",
+            "grade": 2
+        },
+        {
+            "deviceModel": "MI 6",
+            "grade": 2
+        },
+        {
+            "deviceModel": "MI 8",
+            "grade": 2
+        },
+        {
+            "deviceModel": "MI NOTE 3",
+            "grade": 2
+        },
+        {
+            "deviceModel": "MIX 2",
+            "grade": 2
+        },
+        {
+            "deviceModel": "MIX 2S",
+            "grade": 2
+        },
+        {
+            "deviceModel": "MP1602",
+            "grade": 2
+        },
+        {
+            "deviceModel": "MX6",
+            "grade": 2
+        },
+        {
+            "deviceModel": "NX563J",
+            "grade": 2
+        },
+        {
+            "deviceModel": "ONEPLUS A5000",
+            "grade": 2
+        },
+        {
+            "deviceModel": "ONEPLUS A5010",
+            "grade": 2
+        },
+        {
+            "deviceModel": "ONEPLUS A6000",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO PADM00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11 PLUS",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11 PLUSK",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11 PLUSKT",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11S",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11S PLUS",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11S PLUST",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11ST",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OPPO R11T",
+            "grade": 2
+        },
+        {
+            "deviceModel": "OS105",
+            "grade": 2
+        },
+        {
+            "deviceModel": "PAAM00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "PAAT00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "PACM00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "PACT00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "PBAM00",
+            "grade": 2
+        },
+        {
+            "deviceModel": "REDMI NOTE 4",
+            "grade": 2
+        },
+        {
+            "deviceModel": "REDMI NOTE 5",
+            "grade": 2
+        },
+        {
+            "deviceModel": "REDMI PRO",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SKR-A0",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SM-G9250",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SM-G9280",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SM-G9500",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SM-G9550",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SM-G9600",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SM-G9650",
+            "grade": 2
+        },
+        {
+            "deviceModel": "SM-N9500",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X20",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X20A",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X20PLUS",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X20PLUS A",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X21",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X21A",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X21UD",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO X21UD A",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO Y85",
+            "grade": 2
+        },
+        {
+            "deviceModel": "VIVO Y85A",
+            "grade": 2
+        },
+        {
+            "deviceModel": "GIONEE GN8002S",
+            "grade": 1
+        },
+        {
+            "deviceModel": "HUAWEI ALE-UL00",
+            "grade": 1
+        },
+        {
+            "deviceModel": "HUAWEI CAZ-AL10",
+            "grade": 1
+        },
+        {
+            "deviceModel": "HUAWEI MLA-AL10",
+            "grade": 1
+        },
+        {
+            "deviceModel": "HUAWEI TAG-AL00",
+            "grade": 1
+        },
+        {
+            "deviceModel": "HUAWEI TAG-TL00",
+            "grade": 1
+        },
+        {
+            "deviceModel": "LETV X500",
+            "grade": 1
+        },
+        {
+            "deviceModel": "LETV X501",
+            "grade": 1
+        },
+        {
+            "deviceModel": "M1 METAL",
+            "grade": 1
+        },
+        {
+            "deviceModel": "M1 NOTE",
+            "grade": 1
+        },
+        {
+            "deviceModel": "M5 NOTE",
+            "grade": 1
+        },
+        {
+            "deviceModel": "M6 NOTE",
+            "grade": 1
+        },
+        {
+            "deviceModel": "MI 5X",
+            "grade": 1
+        },
+        {
+            "deviceModel": "MI MAX 2",
+            "grade": 1
+        },
+        {
+            "deviceModel": "MX5",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OD103",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A73",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A73T",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A77",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A77T",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A79",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A79K",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A79KT",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A79T",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A83",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO A83T",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R7",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R7S",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R9KM",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R9M",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R9S",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R9SK",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R9ST",
+            "grade": 1
+        },
+        {
+            "deviceModel": "OPPO R9TM",
+            "grade": 1
+        },
+        {
+            "deviceModel": "P8",
+            "grade": 1
+        },
+        {
+            "deviceModel": "PLK-AL10",
+            "grade": 1
+        },
+        {
+            "deviceModel": "PLK-TL01H",
+            "grade": 1
+        },
+        {
+            "deviceModel": "REDMI 4",
+            "grade": 1
+        },
+        {
+            "deviceModel": "REDMI 5",
+            "grade": 1
+        },
+        {
+            "deviceModel": "REDMI 5 PLUS",
+            "grade": 1
+        },
+        {
+            "deviceModel": "REDMI NOTE 4X",
+            "grade": 1
+        },
+        {
+            "deviceModel": "SM-C7000",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO X5MAX",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO X5PRO D",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO X6D",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO X6PLUS D",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO X9",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO X9I",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO X9L",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO Y75",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO Y75A",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO Y79",
+            "grade": 1
+        },
+        {
+            "deviceModel": "VIVO Y79A",
+            "grade": 1
+        },
+        {
+            "deviceModel": "2014813",
+            "grade": 0
+        },
+        {
+            "deviceModel": "A31",
+            "grade": 0
+        },
+        {
+            "deviceModel": "ATH-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "BAH-W09",
+            "grade": 0
+        },
+        {
+            "deviceModel": "CAM-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "CAM-TL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "CAM-TL00H",
+            "grade": 0
+        },
+        {
+            "deviceModel": "CHM-TL00H",
+            "grade": 0
+        },
+        {
+            "deviceModel": "CUN-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "CUN-TL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "DIG-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "DIG-TL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "DLI-AL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "DLI-TL20",
+            "grade": 0
+        },
+        {
+            "deviceModel": "F100",
+            "grade": 0
+        },
+        {
+            "deviceModel": "F100L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "F103",
+            "grade": 0
+        },
+        {
+            "deviceModel": "GN5001S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "GT-N7100",
+            "grade": 0
+        },
+        {
+            "deviceModel": "H60-L01",
+            "grade": 0
+        },
+        {
+            "deviceModel": "HM NOTE 1LTE",
+            "grade": 0
+        },
+        {
+            "deviceModel": "HM NOTE 1S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "HUAWEI MT7-TL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "HUAWEI RIO-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "HUAWEI TIT-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "HUAWEI TIT-TL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "HUAWEI VNS-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "JMM-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "JMM-AL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "KIW-AL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "KIW-TL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "KIW-TL00H",
+            "grade": 0
+        },
+        {
+            "deviceModel": "LDN-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "LE X820",
+            "grade": 0
+        },
+        {
+            "deviceModel": "M2",
+            "grade": 0
+        },
+        {
+            "deviceModel": "M2 NOTE",
+            "grade": 0
+        },
+        {
+            "deviceModel": "M3",
+            "grade": 0
+        },
+        {
+            "deviceModel": "M3S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "M5",
+            "grade": 0
+        },
+        {
+            "deviceModel": "M5S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MEIZU M6",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MEIZU S6",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI 4LTE",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI 5",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI 5S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI 5S PLUS",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI MAX",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI NOTE 2",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI NOTE LTE",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MI-4C",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MIX",
+            "grade": 0
+        },
+        {
+            "deviceModel": "MYA-AL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "NCE-AL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "ONEPLUS A3010",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A33",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A33M",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A37M",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A37T",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A53",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A53M",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A57",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A57T",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A59M",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A59S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO A59ST",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO R7SM",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO R7SPLUS",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO R9 PLUSM A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO R9 PLUSTM A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "OPPO R9S PLUS",
+            "grade": 0
+        },
+        {
+            "deviceModel": "PBDM00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "R7PLUS",
+            "grade": 0
+        },
+        {
+            "deviceModel": "R7PLUSM",
+            "grade": 0
+        },
+        {
+            "deviceModel": "R8207",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI 3",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI 3S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI 3X",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI 4A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI 4X",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI 5A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI NOTE 2",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI NOTE 3",
+            "grade": 0
+        },
+        {
+            "deviceModel": "REDMI NOTE 5A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "S9",
+            "grade": 0
+        },
+        {
+            "deviceModel": "SLA-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "SLA-TL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "SM-C5000",
+            "grade": 0
+        },
+        {
+            "deviceModel": "SM-C9000",
+            "grade": 0
+        },
+        {
+            "deviceModel": "SM-G9350",
+            "grade": 0
+        },
+        {
+            "deviceModel": "TRT-AL00",
+            "grade": 0
+        },
+        {
+            "deviceModel": "TRT-AL00A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "TRT-TL10",
+            "grade": 0
+        },
+        {
+            "deviceModel": "TRT-TL10A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO V3",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO V3M A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO V3MAX A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X5M",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X5S L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X6A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X6PLUS A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X6S A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X6SPLUS D",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X7",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X7PLUS",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X9PLUS",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X9PLUS L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X9S",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X9S L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X9S PLUS",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO X9S PLUS L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO XPLAY5A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO XPLAY6",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y23L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y27",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y31",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y31A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y35",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y35A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y37",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y51",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y51A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y51T L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y53",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y53L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y55",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y55A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y55L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y66",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y66I",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y66I A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y66L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y67",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y67A",
+            "grade": 0
+        },
+        {
+            "deviceModel": "VIVO Y67L",
+            "grade": 0
+        },
+        {
+            "deviceModel": "Xiaomi HM NOTE 1TD",
+            "grade": 0
+        },
+        {
+            "deviceModel": "Xiaomi MI NOTE LTE",
+            "grade": 0
+        }
+    ]
+}

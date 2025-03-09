@@ -1,0 +1,56 @@
+{
+    "group": "RO",
+    "libs": [
+                "libz.dylib", 
+                "libc++.dylib",
+                "libsqlite3.0.dylib",
+                "libz.1.1.3.dylib",
+                "libc++.tbd",
+                "libstdc++.dylib",
+                "libstdc++.6.0.9.dylib",
+                "libsqlite3.0.tbd",
+                "libxml2.dylib"
+            ],
+    "frameworks": [
+                    "SystemConfiguration.framework",
+                    "Security.framework",
+                    "JavaScriptCore.framework",
+                    "Photos.framework",
+                    "AVKit.framework",
+                    "CoreTelephony.framework",
+                    "Foundation.framework",
+                    "MobileCoreServices.framework",
+                    "CoreData.framework",
+                    "CoreText.framework",
+                    "ImageIO.framework",
+                    "StoreKit.framework",
+                    "AdSupport.framework",
+                    "UIKit.framework",
+                    "AudioToolbox.framework",
+                    "AVFoundation.framework", 
+                    "CoreAudio.framework",
+                    "CoreLocation.framework",
+                    "CoreGraphics.framework",
+                    "CFNetwork.framework",
+                    "QuartzCore.framework",
+                    "UserNotifications.framework",
+                    "LocalAuthentication.framework"
+                  ],
+    "headerpaths": [],
+    "files":   [
+                    "ROLib/roioslib.framework",
+                ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [
+                        "-ObjC"
+                    ],
+    "plist": {
+        "NSPhotoLibraryUsageDescription" : "需要访问相册权限",
+        "NSCameraUsageDescription" : "需要访问相机权限",
+        "NSLocationWhenInUseUsageDescription" : "需要使用期间访问位置权限",
+        "NSMicrophoneUsageDescription" : "需要访问麦克风权限"
+    },
+
+}

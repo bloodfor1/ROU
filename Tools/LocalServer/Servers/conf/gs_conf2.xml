@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<GameServer name="game" zone="1" id="1" debug="1" line="2">
+    <DB ip="10.0.150.100" user="game" password="game" port="3306" database="world"/>
+
+    <Connect>
+        <peer ip="127.0.0.1" port="10132" handler="mslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10102" handler="ctrllink" sendBufSize="2048000" recvBufSize="2048000"/>
+    </Connect>
+
+    <!-- rolltype (day, hour) # common lib log config-->
+    <LogType file="1" console="0" rolltype="day"/>
+    <LogLevel debug="0" info="0" warn="1" error="1" fatal="1"/>
+    <!-- log4cxx config-->
+    <Log4cxxType file="1" console="1" level="debug"/>
+    <ModuleDetailLog>
+        <peer name="buff"           level="debug" enabled="0"/>
+        <peer name="skill"          level="debug" enabled="0"/>
+        <peer name="move"           level="debug" enabled="0"/>
+        <peer name="vehicle"        level="debug" enabled="0"/>
+        <peer name="view"           level="debug" enabled="0"/>
+        <peer name="role"           level="debug" enabled="0"/>
+        <peer name="sceneliftcycle" level="debug" enabled="0"/>
+        <peer name="theme"          level="info" enabled="1"/>
+        <peer name="delegate"       level="info" enabled="1"/>
+        <peer name="worldpve"       level="info" enabled="1"/>
+        <peer name="[支付钻石模块]"       level="debug" enabled="1"/>
+        <peer name="[支付其他通用模块]"   level="debug" enabled="1"/>
+        <peer name="[支付订单模块]"       level="debug" enabled="1"/>
+    </ModuleDetailLog>
+
+    <RootPath dir="gsconf"/>
+    <RpcTimeout enabled="1"/>
+    <TLogConfigFile path="serveronly/tlog_config.xml"/>
+    <!-- 测试环境 msdktest.qq.com(外网) msdktest.tencent-cloud.net(内网) 正式环境（内网IDC）的gameSvr访问MSDK域名 msdk.tencent-cloud.net (TGW)  -->
+    <SdkUrl link="http://msdktest.qq.com"/>
+    <!-- http协议外网:   maasapi.game.qq.com/aas.fcg  12280
+		http协议内网:   域名  maasapi.idip.tencent-cloud.net/aas.fcg  12280    L5   64201473:65536
+		游戏server部署在腾讯云环境下请使用https服务：https://maasapi2.game.qq.com/aas.fcg		-->
+    <AntiAddictionUrl link="https://maasapi2.game.qq.com:12280/aas.fcg" />
+    <!-- DataMore 个人成长职业生涯 数据查询URL 
+	测试URL http://cgidev.datamore.qq.com/datamore/dragonnestinner/user_profile
+	正式的URL ：http://dragonnest.tencent-cloud.net/datamore/dragonnestinner/user_profile  -->
+    <DataMoreUrl link="http://cgidev.datamore.qq.com/datamore/dragonnestinner/user_profile" />
+
+    <!-- GameWeixinUrl 微信福袋 数据查询URL 
+	测试和正式同一url
+	正式的URL ：http://game.weixin.qq.com/cgi-bin/actnew/getacturl -->
+    <GameWeixinUrl link="http://game.weixin.qq.com/cgi-bin/actnew/getacturl" />
+
+    <KeepAlive  enabled="1"/>
+    <ClientGM enabled = "1"/>
+    <TlogInfo isclose = "0" sendtx = "0" sendlocal = "1"/>
+</GameServer>

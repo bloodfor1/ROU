@@ -1,0 +1,1 @@
+HotFixExporter.exe -newhotfix -version:1.1.0 -platform:Standalone

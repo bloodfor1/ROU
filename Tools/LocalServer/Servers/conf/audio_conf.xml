@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<AudioServer name="audio" zone="1" id="1">
+    <DB ip="10.0.150.100" user="game" password="game" port="3306" database="world"/>
+    <Connect>
+        <peer ip="127.0.0.1" port="10134" handler="mslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10105" handler="ctrllink" sendBufSize="2048000" recvBufSize="2048000"/>
+    </Connect>
+
+    <!-- rolltype (day, hour) # common lib log config-->
+    <LogType  file="1" console="0" rolltype="day"/>
+    <LogLevel debug="0" info="0" warn="1" error="1" fatal="1"/>
+    <!-- log4cxx config-->
+    <Log4cxxType  file="1" console="1" level="debug"/>
+
+    <RootPath dir="audioconf"/>
+    <RpcTimeout enabled="1"/>
+    <KeepAlive  enabled="1"/>
+    <TestApolloEnv enabled="1"/>
+</AudioServer>

@@ -1,0 +1,6 @@
+require "role_script_manager"
+require "seven_login_activity"
+require "cat_trade_activity"
+require "exp_calculate"
+require "thirty_sign_activity"
+require "level_gift_activity"

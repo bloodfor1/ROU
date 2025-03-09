@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<DBServer name="db" zone="1" id="1" line="1">
+
+    <!--player库的个数一旦开服绝不能更改, threads会(向下)取整为1+players的倍数, 并且不超过32-->
+    <DB threads="12" players= "5">
+        <peer ip="10.0.150.100" user="game" password="game" port="3306" database="world"/>
+        <peer ip="10.0.150.100" user="game" password="game" port="3306" database="player0"/>
+        <peer ip="10.0.150.100" user="game" password="game" port="3306" database="player1"/>
+        <peer ip="10.0.150.100" user="game" password="game" port="3306" database="player2"/>
+        <peer ip="10.0.150.100" user="game" password="game" port="3306" database="player3"/>
+        <peer ip="10.0.150.100" user="game" password="game" port="3306" database="player4"/>
+    </DB>
+    <OnlineDB ip="10.0.150.100" user="game" password="game" port="3306" database="db_RO_online"/>
+
+    <Connect>
+        <peer ip="127.0.0.1" port="10104" handler="ctrllink" sendBufSize="2048000" recvBufSize="2048000"/>
+    </Connect>
+
+    <Listen>
+        <peer ip="127.0.0.1" port="10111" handler="gslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10112" handler="mslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10114" handler="tradelink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10115" handler="audiolink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10116" handler="paylink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10117" handler="ranklink" sendBufSize="2048000" recvBufSize="2048000"/>
+    </Listen>
+
+    <!-- rolltype (day, hour) # common lib log config-->
+    <LogType  file="1" console="0" rolltype="day"/>
+    <LogLevel debug="0" info="0" warn="1" error="1" fatal="1"/>
+    <!-- log4cxx config-->
+    <Log4cxxType  file="1" console="1" level="debug"/>
+    <RootPath dir="dbconf"/>
+    <RpcTimeout enabled="1"/>
+    <AutoCreateDB enabled="0"/>
+    <KeepAlive  enabled="1"/>
+</DBServer>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PayServer name="pay" zone="1" id="1" debug="1">
+    <AppPlat app="qq" plat="android" />
+    <!-- app(qq, wechat), plat(ios, android) -->
+    <DB ip="10.0.150.100" user="game" password="game" port="3306" database="world"/>
+
+    <Connect>
+        <peer ip="127.0.0.1" port="10137" handler="mslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10107" handler="ctrllink" sendBufSize="1024000" recvBufSize="1024000"/>
+        <peer ip="10.0.128.201" port="25005" handler="loginlink" sendBufSize="1024000" recvBufSize="1024000"/>
+        <peer ip="10.0.128.201" port="29002" handler="idiplink" sendBufSize="1024000" recvBufSize="1024000"/>
+    </Connect>
+
+    <Listen>
+        <peer ip="127.0.0.1" port="10161" handler="gatelink" sendBufSize="2048000" recvBufSize="2048000"/>
+    </Listen>
+
+    <!-- rolltype (day, hour) # common lib log config-->
+    <LogType file="1" console="0" rolltype="day"/>
+    <LogLevel debug="0" info="0" warn="1" error="1" fatal="1"/>
+    <!-- log4cxx config-->
+    <Log4cxxType file="1" console="1" level="debug"/>
+    <ModuleDetailLog>
+        <peer name="[支付钻石模块]" 		level="debug" enabled="1"/>
+        <peer name="[支付其他通用模块]" 	level="debug" enabled="1"/>
+        <peer name="[支付订单模块]" 		level="debug" enabled="1"/>
+    </ModuleDetailLog>
+
+    <Region value="Korea"/>
+    <RootPath dir="gsconf"/>
+    <RpcTimeout enabled="1"/>
+    <!-- 江游获取订单id的url -->
+    <JoyYouUrl link="https://ou-kr-sdk-api.huanle.com/sdk/order-create" />
+    <!-- paydebug(沙盒或现网环境) 0：现网 1：沙盒 没有该字段默认为沙盒环境-->
+    <!-- paydelaytest(延迟测试) 0:正常 1：延迟，谨慎使用，正式环境不能打开延迟，仅用于测试用途-->
+    <PayUrl link="http://msdktest.qq.com" slavelink=""  count="10" paydebug="1" paydelaytest="0"/>
+    <MsdkUrl link="http://msdktest.qq.com"/>
+    <JoyYouPayAckUrl link="https://ou-kr-sdk-api.huanle.com/sdk/idip-ack" />
+    <KeepAlive enabled="1"/>
+</PayServer>

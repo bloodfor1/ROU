@@ -1,0 +1,21 @@
+---@class ROGameLibs.StateDefine : System.Enum
+---@field public value__ number
+---@field public kStateDefault number
+---@field public kStateSinging number
+---@field public kStateSkill number
+---@field public kStateSpecial number
+---@field public kStateDead number
+---@field public kStateFearRun number
+---@field public kStateBehit number
+---@field public kStateStun number
+---@field public kStateClimbing number
+---@field public kStateCollect number
+---@field public kStateBorn number
+---@field public kStateFishing number
+---@field public kStateDoubleActionClip number
+---@field public kStateDance number
+---@field public kStateSceneTriggerObject number
+---@field public kStateCount number
+
+---@type ROGameLibs.StateDefine
+ROGameLibs.StateDefine = { }

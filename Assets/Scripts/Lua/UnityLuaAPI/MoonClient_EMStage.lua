@@ -1,0 +1,21 @@
+---@class MoonClient.EMStage : System.Enum
+---@field public value__ number
+---@field public Null number
+---@field public Login number
+---@field public SelectChar number
+---@field public Hall number
+---@field public Wild number
+---@field public Dungeon number
+---@field public ArenaPre number
+---@field public Arena number
+---@field public Cooking number
+---@field public FreshSelectchar number
+---@field public BattlePre number
+---@field public Battle number
+---@field public RingPre number
+---@field public Ring number
+---@field public MatchPre number
+---@field public Match number
+
+---@type MoonClient.EMStage
+MoonClient.EMStage = { }

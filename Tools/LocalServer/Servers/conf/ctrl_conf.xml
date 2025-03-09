@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<ControlServer name="control" zone="1" id="1">
+    <AppPlat app="qq" plat="ios" />
+    <!-- app(qq, wechat), plat(ios, android) -->
+    <DB ip="10.0.150.100" user="game" password="game" port="3306" database="world"/>
+
+    <Connect>
+        <peer ip="10.0.128.201" port="25000" handler="loginlink" sendBufSize="1024000" recvBufSize="1024000"/>
+        <peer ip="10.0.128.201" port="26001" handler="authlink" sendBufSize="1024000" recvBufSize="1024000"/>
+    </Connect>
+
+    <Listen>
+        <peer ip="127.0.0.1" port="10101" handler="gatelink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10102" handler="gslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10103" handler="mslink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10104" handler="dblink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10105" handler="audiolink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10106" handler="tradelink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10107" handler="paylink" sendBufSize="2048000" recvBufSize="2048000"/>
+        <peer ip="127.0.0.1" port="10108" handler="ranklink" sendBufSize="2048000" recvBufSize="2048000"/>
+    </Listen>
+
+    <!-- rolltype (day, hour) # common lib log config-->
+    <LogType  file="1" console="0" rolltype="day"/>
+    <LogLevel debug="0" info="0" warn="1" error="1" fatal="1"/>
+    <!-- log4cxx config-->
+    <Log4cxxType  file="1" console="1" level="debug"/>
+    <ModuleDetailLog>
+        <peer name="role"               level="debug" enabled="0"/>
+        <peer name="sceneliftcycle"     level="debug" enabled="0"/>
+    </ModuleDetailLog>
+
+    <Shm>
+        <config name="scene" num="50000" />
+        <config name="account" num="20000" />
+        <config name="role" num="10000" />
+    </Shm>
+
+    <Maple>
+        <udpaddr ip=" 61.151.207.32" port="30000" />
+        <udpaddr ip="9.2.87.198" port="30000" />
+        <!-- auto(默认)为1,如果第一个ip 40s收不到回应包会自动切到另一个ip-->
+        <config auto = "1" interval = "6" platid = "1" gameid = "364550693"
+                    gamekey = "8ad4dd4fefe64b1394e6858c1c987918"
+                    encrypt_type = "1" encrypt_key = "utiyIjCC8EMS7Ok2"/>
+    </Maple>
+
+    <!--本服最大注册人数, 是否开启注册 -->
+    <MaxRegisterNum value="50000" onoff = "true"/>
+
+    <RoleIDValve valve="20"/>
+    <RootPath dir="gsconf"/>
+    <RpcTimeout enabled="1"/>
+    <KeepAlive  enabled="1"/>
+    <TlogToTx enabled = "0"/>
+    <TlogToLocal enabled = "1"/>
+    <ChooseGSType type = "7"/>
+</ControlServer>

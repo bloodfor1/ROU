@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830d9e5df3a069a43a7da6fc68c41db3, type: 3}
+  m_Name: DeploySettings
+  m_EditorClassIdentifier: 
+  bundleId: com.tencent.ro
+  qqAppId: 1106940687
+  wxAppId: wx0ff9bb28b1897f07
+  msdkKey: 626253067492d36d10d8416e48c5cef0
+  androidOfferId: 1106940687
+  iOSOfferId: 1450001484

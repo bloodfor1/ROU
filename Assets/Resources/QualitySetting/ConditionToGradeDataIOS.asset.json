@@ -1,0 +1,365 @@
+{
+    "conditionToGradeRange": [
+        {
+            "priority": 10,
+            "minGrade": 3,
+            "maxGrade": 3,
+            "datas": [
+                {
+                    "ConditionType": 8,
+                    "CompareType": 1,
+                    "intValue": 3,
+                    "strValue": ""
+                }
+            ]
+        },
+        {
+            "priority": 10,
+            "minGrade": 3,
+            "maxGrade": 3,
+            "datas": [
+                {
+                    "ConditionType": 8,
+                    "CompareType": 1,
+                    "intValue": 4,
+                    "strValue": ""
+                }
+            ]
+        },
+        {
+            "priority": 10,
+            "minGrade": 3,
+            "maxGrade": 3,
+            "datas": [
+                {
+                    "ConditionType": 8,
+                    "CompareType": 1,
+                    "intValue": 5,
+                    "strValue": ""
+                }
+            ]
+        },
+        {
+            "priority": 60,
+            "minGrade": 3,
+            "maxGrade": 3,
+            "datas": [
+                {
+                    "ConditionType": 2,
+                    "CompareType": 3,
+                    "intValue": 1537,
+                    "strValue": ""
+                }
+            ]
+        },
+        {
+            "priority": 60,
+            "minGrade": 0,
+            "maxGrade": 0,
+            "datas": [
+                {
+                    "ConditionType": 2,
+                    "CompareType": 4,
+                    "intValue": 512,
+                    "strValue": ""
+                }
+            ]
+        },
+        {
+            "priority": 70,
+            "minGrade": 2,
+            "maxGrade": 2,
+            "datas": [
+                {
+                    "ConditionType": 5,
+                    "CompareType": 1,
+                    "intValue": 0,
+                    "strValue": "Apple A8X GPU"
+                }
+            ]
+        },
+        {
+            "priority": 70,
+            "minGrade": 2,
+            "maxGrade": 2,
+            "datas": [
+                {
+                    "ConditionType": 5,
+                    "CompareType": 1,
+                    "intValue": 0,
+                    "strValue": "Apple A8 GPU"
+                }
+            ]
+        },
+        {
+            "priority": 90,
+            "minGrade": 0,
+            "maxGrade": 0,
+            "datas": [
+                {
+                    "ConditionType": 2,
+                    "CompareType": 4,
+                    "intValue": 1536,
+                    "strValue": ""
+                }
+            ]
+        }
+    ],
+    "scoreToGrade": [
+        {
+            "grade": 3,
+            "min": -1,
+            "max": 150
+        },
+        {
+            "grade": 3,
+            "min": 151,
+            "max": 270
+        },
+        {
+            "grade": 2,
+            "min": 271,
+            "max": 400
+        },
+        {
+            "grade": 1,
+            "min": 351,
+            "max": 600
+        },
+        {
+            "grade": 0,
+            "min": 601,
+            "max": -1
+        }
+    ],
+    "deviceModelToGrade": [
+        {
+            "deviceModel": "iPhone7,2",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPhone7,1",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPhone8,1",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPhone8,2",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPhone8,4",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPad6,11",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPad6,12",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPad7,5",
+            "grade": 2
+        },
+        {
+            "deviceModel": "iPad7,6",
+            "grade": 2
+        },
+        {
+            "deviceModel": "iPad7,11",
+            "grade": 2
+        },
+        {
+            "deviceModel": "iPad7,12",
+            "grade": 2
+        },
+        {
+            "deviceModel": "iPad5,1",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPad5,2",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPad5,3",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPad5,4",
+            "grade": 1
+        },
+        {
+            "deviceModel": "iPhone9,1",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone9,3",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone9,2",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone9,4",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone10,1",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone10,4",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone10,2",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone10,5",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone10,3",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone10,6",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPhone11,8",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPhone11,2",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPhone11,6",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPhone11,4",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPhone12,1",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPhone12,3",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPhone12,5",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPhone12,8",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad11,3",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad11,4",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad6,7",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad6,8",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad6,3",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad6,4",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad7,1",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad7,2",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad7,3",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad7,4",
+            "grade": 3
+        },
+        {
+            "deviceModel": "iPad8,1",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,2",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,3",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,4",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,5",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,6",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,7",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,8",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,9",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,10",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,11",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad8,12",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad11,1",
+            "grade": 4
+        },
+        {
+            "deviceModel": "iPad11,2",
+            "grade": 4
+        }
+    ]
+}

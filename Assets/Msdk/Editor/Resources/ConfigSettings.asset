@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8060924da45c737479c67846d2a771a7, type: 3}
+  m_Name: ConfigSettings
+  m_EditorClassIdentifier: 
+  msdkUrlEnvs:
+  - release
+  - test
+  logLevels:
+  - "0:\u4E0D\u6253\u5370"
+  - "1:\u6253\u5370\u5230\u63A7\u5236\u53F0"
+  - "2:\u6253\u5370\u5230\u6587\u4EF6"
+  - "3:\u6253\u5370\u5230\u63A7\u5236\u53F0\u548C\u6587\u4EF6"
+  checkConfig: 1
+  msdkUrlIndex: 0
+  msdkUrlEnv: release
+  wxRefresh: 1
+  push: 0
+  needNotice: 1
+  noticeTime: 15
+  realNameAuth: 1
+  webviewPortraitHideable: 0
+  webviewLandscapeHideable: 0
+  beta: 0
+  logLevelIndex: 1
+  localLog: 1
+  statLog: 0
+  closeBugly: 0
+  saveUpdate: 1
+  grayTest: 0
+  v2Signing: 0
+  useC11: 1
